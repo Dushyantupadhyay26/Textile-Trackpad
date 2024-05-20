@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textile Trakpad</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/prism.css">
+  <link rel="stylesheet" href="./assets/css/prism2.css">
+
+  <!--
+    - google font link
+  -->
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/prof.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <p class="title">&nbsp; &nbsp; Advisor:</p>
+          <p class="title">&nbsp; &nbsp;Anmol Srivastava</p>
+          <p class="title">Assistant Professor (HCD)</p>
+          <br>
+
+          <h1 class="name" title="Dushyant">DUSHYANT (ECE)</h1>
+          <h1 class="name" title="Vishal bharti">VISHAL BHARTI (ECE)</h1>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="dushyant20198@iiitd.ac.in" class="contact-link">dushyant20198@iiitd.ac.in</a>
+              <a href="vishal20264@iiitd.ac.in" class="contact-link">vishal20264@iiitd.ac.in</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919911807985" class="contact-link">+91 9911807985</a>
+              <a href="tel:+9189338 74972" class="contact-link">+91 8933874972</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New Delhi, Delhi</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/watch?v=KfHBb2NHOP8&source_ve_path=Mjg2NjY&feature=emb_logo" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.iiitd.ac.in/anmol" class="social-link">
+              <ion-icon name="person-sharp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/vishal-20264/textileTrackpad/tree/main" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resources</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Code</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Details</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Project</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Functional fabrics can do things like light up, heat people, and sense when they're being touched. 
+            This project was developed to show how functional fabrics can be used for applications far beyond 
+            apparel and can also be used as design tools.
+          </p>
+
+          <p>
+            The Textile trackpad can be used to replace a computer mouse and could, in theory, be used to model, 
+            sketch and draw in the computer. This one is just hooked up to a processing sketch, but if you make 
+            your own, I'd be curious to see how you make it function!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Resouces</h4>
+
+                <p class="service-item-text">
+                  Explored innovative ways to enhance our textile trackpad. Delved into cutting-edge research 
+                  papers and collaborated with our advisor for valuable insights.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Code</h4>
+
+                <p class="service-item-text">
+                  Developed robust Arduino and Processing scripts to power the trackpad. 
+                  Streamlined code for optimal performance and seamless user experience.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Components</h4>
+
+                <p class="service-item-text">
+                  Engineered the textile trackpad using conductive materials and microcontrollers. 
+                  Focused on creating a responsive and durable interface.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Testing</h4>
+
+                <p class="service-item-text">
+                  Rigorous testing of hardware and software. Conducted trials to ensure reliability 
+                  and accuracy, fine-tuning the system for perfect performance.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Resources
+      -->
+
+      <article class="resources" data-page="resources">
+
+        <header>
+          <h2 class="h2 article-title">Resources</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            The Textile Trackpad project explores the integration of textile materials with electronic components 
+            to create a touch-sensitive interface. The project aims to develop an interactive fabric-based trackpad 
+            capable of detecting touch inputs and translating them into digital signals for various applications. 
+            Two prototypes were developed, each employing different materials and components to achieve the desired functionality.
+          </p>
+        </section>
+
+        <section class="about-text">
+
+          <h3 class="h3 service-title">Prototypes</h3>
+          <h3 class="h3 article-title">Prototype 1 -> Bare Conductive Touch Board</h3>
+          <br><b>Components:</b> Bare conductive ink, capacitive tape, conductive thread, crocodile wires, Arduino microcontroller
+            <b>Description:</b> This prototype uses a Bare Conductive Touch Board and capacitive tape to form a touch-sensitive surface. 
+            Conductive threads are sewn into the fabric to create touch detection areas, connected via crocodile wires to the Arduino microcontroller.
+            </p>
+          
+        </section>
+
+        <section class="about-text">
+          <h3 class="h3 article-title">Prototype 2 -> Arduino Nano Microcontroller</h3>
+          <p><b>Components:</b> Arduino Nano, capacitive tape, jumper wires
+            <b>Description:</b> This version utilizes an Arduino Nano microcontroller. Capacitive tape is 
+            strategically placed to detect touch inputs, with jumper wires ensuring connectivity. 
+            This prototype provides a more compact and versatile solution.
+            Integration with Wekinator
+            Both prototypes are integrated with Wekinator, a machine learning tool, to train and 
+            recognize five gestures: swipeDown, swipeUp, swipeLeft, swipeRight, and double tap. 
+            This integration enables real-time gesture recognition, enhancing interactivity and usability.
+            </p>
+          
+        </section>
+
+        <section class="about-text">
+          <h3 class="h3 article-title">Visualization</h3>
+          <p>The processing code visualizes touch inputs and Wekinator outputs. A grid representation
+             displays touch-sensitive areas, highlighting touched cells based on detected gestures. 
+             This provides visual feedback and allows real-time monitoring of gesture recognition performance.</p>
+          
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Code
+      -->
+
+      <article class="code" data-page="code">
+
+        <header>
+          <h2 class="h2 article-title">Code</h2>
+        </header>
+
+        <h3 class="h3 service-title">Processing Code</h3>
+        <div class="container">
+          <div class="code-wraper">
+            <pre>
+              <code id="code" class="language-C++">
+                            import processing.serial.*; // Importing the Serial library for serial communication
+import oscP5.*; // Importing the oscP5 library for OSC communication
+import netP5.*; // Importing the netP5 library for networking
+import peasy.*; // Importing the PeasyCam library for 3D navigation
+
+PeasyCam cam; // PeasyCam object for camera control
+Serial port; // Serial object for serial communication
+int[] data = new int[2]; // Array to store touch coordinates
+int gridSize = 50; // Size of each grid cell
+boolean[][] touched = new boolean[5][4]; // 2D array to store touch state of each grid cell
+
+OscP5 oscP5; // OscP5 object for OSC communication
+NetAddress dest; // NetAddress object to define the destination address
+String wekinatorOutput = ""; // Variable to store Wekinator output data
+
+void setup() {
+  size(800, 600, P3D); // Set canvas size with 3D renderer
+  cam = new PeasyCam(this, 500); // Initialize PeasyCam with distance 500
+  cam.setMinimumDistance(50); // Set minimum distance for PeasyCam
+  cam.setMaximumDistance(1000); // Set maximum distance for PeasyCam
+  port = new Serial(this, "COM6", 115200); // Initialize Serial port with COM6 and baud rate 115200
+  
+  // Set up OSC communication
+  oscP5 = new OscP5(this, 12000); // Initialize OscP5 with listening port 12000
+  dest = new NetAddress("127.0.0.1", 6448); // Define the destination address for Wekinator
+}
+
+void draw() {
+  if (port.available() > 0) { // Check if data is available from the serial port
+    String serialData = port.readStringUntil('\n'); // Read the serial data until newline
+    if (serialData != null) { // Check if data is received
+      String[] values = serialData.trim().split(","); // Split the received data by comma
+      if (values.length == 2) { // Ensure the array has at least 2 elements
+        data[0] = int(values[0]); // Parse the x-coordinate
+        data[1] = int(values[1]); // Parse the y-coordinate
+        updateGrid(data[0], data[1]); // Update the grid based on touch coordinates
+        sendOSCData(data[0], data[1]); // Send touch data to Wekinator
+      }
+    }
+  }
+  
+  // Receive Wekinator output data
+  OscMessage msg = new OscMessage("/wek/outputs"); // Create OSC message for Wekinator output
+  oscP5.send(msg, dest); // Send the OSC message to Wekinator
+  
+  // Print Wekinator output in console
+  println("Wekinator Output: " + wekinatorOutput);
+  
+  // Draw the grid
+  background(255); // Set background color to white
+  drawGrid(); // Draw the grid based on touch state
+}
+
+void updateGrid(int x, int y) {
+  // Reset the touch state of all grid cells
+  for (int i = 0; i < 5; i++) {
+    for (int j = 0; j < 4; j++) {
+      touched[i][j] = false;
+    }
+  }
+  // Mark the touched grid cell
+  if (x >= 0 && x < 5 && y >= 0 && y < 4) {
+    touched[x][y] = true;
+  }
+}
+
+void drawGrid() {
+  // Draw the grid with highlighted touched cells
+  for (int i = 0; i < 5; i++) {
+    for (int j = 0; j < 4; j++) {
+      stroke(0); // Set stroke color to black
+      noFill(); // Disable filling shapes
+      rect(i * gridSize, j * gridSize, gridSize, gridSize); // Draw grid cell
+      if (touched[i][j]) { // Check if grid cell is touched
+        fill(255, 0, 0, 100); // Set fill color to transparent red
+        rect(i * gridSize, j * gridSize, gridSize, gridSize); // Highlight touched grid cell
+      }
+    }
+  }
+}
+
+void sendOSCData(int x, int y) {
+  // Create an OSC message with the touch coordinates
+  OscMessage msg = new OscMessage("/wek/inputs"); // Create OSC message for Wekinator inputs
+  msg.add((float)x); // Add x-coordinate as float
+  msg.add((float)y); // Add y-coordinate as float
+  oscP5.send(msg, dest); // Send the OSC message to Wekinator
+}
+
+void oscEvent(OscMessage msg) {
+  if (msg.checkAddrPattern("/wek/outputs")) { // Check if received message is from Wekinator
+    float x = msg.get(0).floatValue(); // Get the x-coordinate from the OSC message
+    float y = msg.get(1).floatValue(); // Get the y-coordinate from the OSC message
+    wekinatorOutput = x + ", " + y; // Store the raw Wekinator output
+  }
+}
+              </code>
+            </pre>
+          </div>
+        </div>
+
+
+          
+        <h3 class="h3 service-title"><br>Arduino Code</br></h3>
+        <div class="container">
+          <div class="code-wraper">
+            <pre>
+              <code id="code" class="language-C++">
+                            import processing.serial.*; // Importing the Serial library for serial communication
+import oscP5.*; // Importing the oscP5 library for OSC communication
+import netP5.*; // Importing the netP5 library for networking
+import peasy.*; // Importing the PeasyCam library for 3D navigation
+
+PeasyCam cam; // PeasyCam object for camera control
+Serial port; // Serial object for serial communication
+int[] data = new int[2]; // Array to store touch coordinates
+int gridSize = 50; // Size of each grid cell
+boolean[][] touched = new boolean[5][4]; // 2D array to store touch state of each grid cell
+
+OscP5 oscP5; // OscP5 object for OSC communication
+NetAddress dest; // NetAddress object to define the destination address
+String wekinatorOutput = ""; // Variable to store Wekinator output data
+
+void setup() {
+  size(800, 600, P3D); // Set canvas size with 3D renderer
+  cam = new PeasyCam(this, 500); // Initialize PeasyCam with distance 500
+  cam.setMinimumDistance(50); // Set minimum distance for PeasyCam
+  cam.setMaximumDistance(1000); // Set maximum distance for PeasyCam
+  port = new Serial(this, "COM6", 115200); // Initialize Serial port with COM6 and baud rate 115200
+  
+  // Set up OSC communication
+  oscP5 = new OscP5(this, 12000); // Initialize OscP5 with listening port 12000
+  dest = new NetAddress("127.0.0.1", 6448); // Define the destination address for Wekinator
+}
+
+void draw() {
+  if (port.available() > 0) { // Check if data is available from the serial port
+    String serialData = port.readStringUntil('\n'); // Read the serial data until newline
+    if (serialData != null) { // Check if data is received
+      String[] values = serialData.trim().split(","); // Split the received data by comma
+      if (values.length == 2) { // Ensure the array has at least 2 elements
+        data[0] = int(values[0]); // Parse the x-coordinate
+        data[1] = int(values[1]); // Parse the y-coordinate
+        updateGrid(data[0], data[1]); // Update the grid based on touch coordinates
+        sendOSCData(data[0], data[1]); // Send touch data to Wekinator
+      }
+    }
+  }
+  
+  // Receive Wekinator output data
+  OscMessage msg = new OscMessage("/wek/outputs"); // Create OSC message for Wekinator output
+  oscP5.send(msg, dest); // Send the OSC message to Wekinator
+  
+  // Print Wekinator output in console
+  println("Wekinator Output: " + wekinatorOutput);
+  
+  // Draw the grid
+  background(255); // Set background color to white
+  drawGrid(); // Draw the grid based on touch state
+}
+
+void updateGrid(int x, int y) {
+  // Reset the touch state of all grid cells
+  for (int i = 0; i < 5; i++) {
+    for (int j = 0; j < 4; j++) {
+      touched[i][j] = false;
+    }
+  }
+  // Mark the touched grid cell
+  if (x >= 0 && x < 5 && y >= 0 && y < 4) {
+    touched[x][y] = true;
+  }
+}
+
+void drawGrid() {
+  // Draw the grid with highlighted touched cells
+  for (int i = 0; i < 5; i++) {
+    for (int j = 0; j < 4; j++) {
+      stroke(0); // Set stroke color to black
+      noFill(); // Disable filling shapes
+      rect(i * gridSize, j * gridSize, gridSize, gridSize); // Draw grid cell
+      if (touched[i][j]) { // Check if grid cell is touched
+        fill(255, 0, 0, 100); // Set fill color to transparent red
+        rect(i * gridSize, j * gridSize, gridSize, gridSize); // Highlight touched grid cell
+      }
+    }
+  }
+}
+
+void sendOSCData(int x, int y) {
+  // Create an OSC message with the touch coordinates
+  OscMessage msg = new OscMessage("/wek/inputs"); // Create OSC message for Wekinator inputs
+  msg.add((float)x); // Add x-coordinate as float
+  msg.add((float)y); // Add y-coordinate as float
+  oscP5.send(msg, dest); // Send the OSC message to Wekinator
+}
+
+void oscEvent(OscMessage msg) {
+  if (msg.checkAddrPattern("/wek/outputs")) { // Check if received message is from Wekinator
+    float x = msg.get(0).floatValue(); // Get the x-coordinate from the OSC message
+    float y = msg.get(1).floatValue(); // Get the y-coordinate from the OSC message
+    wekinatorOutput = x + ", " + y; // Store the raw Wekinator output
+  }
+}
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+            </button>
+          </div>
+        </section>
+
+      </article>
+
+
+      <!--
+        - #Details
+      -->
+
+      <article class="details" data-page="details">
+
+        <header>
+          <h2 class="h2 article-title">Details</h2>
+        </header>
+
+        <section class="about-text">
+          <h3 class="h3 article">Step 1 -> Solder Your Electronics</h3>
+          <P>To make your textile trackpad, you'll need to spend some time soldering together the circuit. 
+            See the diagram above for how the layout is done. I added vibration motors to shake when you touch the textile, 
+            but it's up to you to add any special features!
+
+            <br>For the cap touch breakout boards, each one can have an individual address, so you'll want to solder them
+            all to the same clock and data line and then solder pins together on the board to create the unique address.</P>
+        
+            <img class="image" src="./assets/images/img1.jpg" alt="">
+
+          <h3 class="h3 article">Step 2 -> Lay the X Axis</h3>
+          <P>Once the electronics are assembled, you can lay out the X axis by ironing together the embroidery insulation 
+            and laying on the conductive fabric strips across the X axis
+
+            <br>There should be add strips spaced 1.5" apart. Once they are all placed, you can insulate with nail polish
+             where the Y axis will cross (this may not be entirely necessary).</P>
+        
+            <img class="image" src="./assets/images/step-2.png" alt="">
+
+          <h3 class="h3 article">Step 3 -> Insulate the Y Axis</h3>
+          <P>Place the 23 Y axis strips onto the lightweight interfacing and cut back into strips. The interfacing on the
+             back keeps the X and Y axis from conducting together. You should have 23 strips with backing ready to place. </P>
+      
+            <img class="image" src="./assets/images/step-3.png" alt="">
+
+          <h3 class="h3 article">Step 4 -> Add the Y Axis</h3>
+          <P>To place the Y Axis, make sure to mark placement lines on the embroidery material. You'll want to place them at a 1.5" 
+            interval and ensure they are straight from top to bottom. 
+            They can be held in place with double stick tape. </P>
+            
+            <img class="image" src="./assets/images/step4.png" alt="">
+
+          <h3 class="h3 article">Step 5 -> Connect Axis to Electronics</h3>
+          <P>To connect each wire to the conductive fabric pieces, you'll want to use a conductive adhesive like Bare Conductive. 
+            We placed this at each joint and let it dry. Then, we tested the connection to ensure it would properly conduct. </P>
+            
+            <img class="image" src="./assets/images/step5.png" alt="">
+
+          <h3 class="h3 article">Step 6 -> Test</h3>
+          <P>After assembling the grid, you'll want to test it with a simple example sketch that comes with the 12 Cap Touch breakout board. 
+            You can touch each lead to ensure it is registered by the MCU and the IC. </P>
+            
+            <img class="image" src="./assets/images/step6.png" alt="">
+
+          <h3 class="h3 article">Step 7 -> Program Electronics</h3>
+          <P>Next up is programming the code. You'll want to Arduino and install.  </P>
+            
+            <!-- <img class="image" src="./assets/images/img1.jpg" alt=""> -->
+            
+        </section>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112155.53528167747!2d77.18921828953074!3d28.543913128044345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390ce3e45d85d3e3%3A0x691393414902968e!2sNEW%20ACADEMIC%20BLOCK%2C%20GB%20PANT%20INSTITUTE%20OF%20TECHNOLOGY%2C%20IIIT%20Road%2C%20Okhla%20Phase%20III%2C%20Okhla%20Industrial%20Estate%2C%20New%20Delhi%2C%20Delhi%20110020!3m2!1d28.543937999999997!2d77.2716197!5e0!3m2!1sen!2sin!4v1716230296107!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+<script src="./assets/js/prism.js"> </script>
+<script src="./assets/js/prism1.js"></script>
+</html>
